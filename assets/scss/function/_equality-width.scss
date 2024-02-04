@@ -1,0 +1,5 @@
+// flexで均等なwidthにする為の関数
+@use "sass:math";
+@function equalityWidth($gap, $count) {
+  @return calc((100% - ($gap * ($count - 1))) / $count)
+}

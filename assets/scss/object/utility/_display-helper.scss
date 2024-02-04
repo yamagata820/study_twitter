@@ -1,0 +1,16 @@
+@use "global" as *;
+
+.u-sp-show {
+  display: none;
+
+  @include mq() {
+    display: block;
+  }
+}
+
+.u-pc-show {
+  display: block;
+  @include mq() {
+    display: none;
+  }
+}

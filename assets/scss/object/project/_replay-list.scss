@@ -1,0 +1,12 @@
+@use "global" as *;
+
+.p-replay-list {
+
+  &__title {
+    margin-top: 10px;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 3px dotted;
+    border-top: 3px dotted;
+  }
+}

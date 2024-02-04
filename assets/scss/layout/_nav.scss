@@ -1,0 +1,23 @@
+@use "global" as *;
+
+.l-nav {
+
+  &__list {
+
+  }
+
+  &__item {
+
+  }
+
+  &__label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 0;
+  }
+
+  &__icon {
+
+  }
+}

@@ -1,0 +1,17 @@
+@use "global" as *;
+
+.p-tweet-form {
+  padding: 16px;
+
+  &__textarea {
+    margin-top: 8px;
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+  }
+
+  &__button {
+    display: block;
+    margin: 10px auto 0;
+  }
+}

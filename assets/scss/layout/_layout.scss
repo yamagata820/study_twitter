@@ -1,0 +1,26 @@
+@use "global" as *;
+
+.l-layout {
+  display: flex;
+  height: 100vh;
+  width: fit-content;
+  padding: 0 20px;
+
+  &__side {
+    width: 250px;
+    padding-right: 20px;
+  }
+
+  &__main {
+    width: 600px;
+    border-left: 1px solid #777;
+    border-right: 1px solid #777;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
+  &__tweet {
+    display: block;
+    margin-top: 32px;
+  }
+}
