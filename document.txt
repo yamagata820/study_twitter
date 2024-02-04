@@ -1,0 +1,60 @@
+- 制作時間 -
+設計:3時間
+実装:13時間
+計:16時間(2日間)
+
+- テーブル一覧 -
+●users
+・id INT
+・created_at DATETIME
+・user_name VARCHAR(45)
+・password TEXT
+・bio VARCHAR(100)
+
+●follows
+・id INT
+・follower_id INT
+・following_id INT
+
+●likes
+・id INT
+・user_id INT
+・tweet_id INT
+
+●tweets
+・id INT
+・created_at DATETIME
+・user_id INT
+・tweet VARCHAR(280)
+・reply_to INT
+
+●retweets
+・id INT
+・created_at DATETIME
+・user_id INT
+・tweet_id INT
+
+- 画面 -
+●実装済み画面
+・タイムライン /source
+・ツイート作成画面 /source/user/tweet
+・ツイート詳細画面 /source/tweet/show/{id}
+・アカウント画面 /source/user/index/{id}
+
+●未実装画面
+・フォロー一覧画面
+・フォロワー一覧画面
+・いいね欄
+
+- 機能 -
+●実装済み機能
+・ツイート
+・リプライ
+・いいね
+・リツイート
+
+●未実装機能
+・フォロー
+・一言の編集
+・ログイン
+・エラー処理全般
